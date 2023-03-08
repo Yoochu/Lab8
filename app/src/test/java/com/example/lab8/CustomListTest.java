@@ -18,8 +18,8 @@ public class CustomListTest {
     public void testAddCity(){
         CustomList list = new CustomList(null, cityList);
         City city = new City("Estevan", "SK");
-        int listSize = list.getCount();
-        assertEquals(list.getCount(),listSize + 1);
+        list.addCity(city);
+        assertEquals(1, list.getCount());
     }
 
 
