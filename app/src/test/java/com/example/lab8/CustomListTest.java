@@ -26,7 +26,7 @@ public class CustomListTest {
     public void testHasCity() {
         CustomList list = new CustomList(null, cityList);
         City city = new City("Edmonton", "AB");
-        list.add(city);
+        list.addCity(city);
         assertTrue(list.hasCity(city));
     }
 
